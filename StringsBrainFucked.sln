@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsBrainFucked", "StringsBrainFucked\StringsBrainFucked.csproj", "{BCBB9AAA-45BB-47EF-81FA-8C055914932D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeFucker", "RuntimeFucker\RuntimeFucker.csproj", "{F412D691-363F-436A-88FD-AE526F724320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCBB9AAA-45BB-47EF-81FA-8C055914932D}.Debug|x86.ActiveCfg = Debug|x86
+		{BCBB9AAA-45BB-47EF-81FA-8C055914932D}.Debug|x86.Build.0 = Debug|x86
+		{BCBB9AAA-45BB-47EF-81FA-8C055914932D}.Release|x86.ActiveCfg = Release|x86
+		{BCBB9AAA-45BB-47EF-81FA-8C055914932D}.Release|x86.Build.0 = Release|x86
+		{F412D691-363F-436A-88FD-AE526F724320}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F412D691-363F-436A-88FD-AE526F724320}.Debug|x86.Build.0 = Debug|Any CPU
+		{F412D691-363F-436A-88FD-AE526F724320}.Release|x86.ActiveCfg = Release|Any CPU
+		{F412D691-363F-436A-88FD-AE526F724320}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
