@@ -14,4 +14,4 @@ Why the fuck not?
 
 - 0xd4d - dnlib
 - gszauer - BF interpreter
-- Keith Randall - text to bf converter
+- copy.sh - text to bf converter
