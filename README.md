@@ -8,7 +8,7 @@ Why the fuck not?
 
 ## Usage
 
-StringsBrainFucked.exe <assembly> [ -o output.exe ]
+`StringsBrainFucked.exe {path to assembly} [ -o output.exe ]`
 
 ## Credits
 
