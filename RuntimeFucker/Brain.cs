@@ -16,7 +16,7 @@
 
             string _program;
             int _ptr;
-            readonly byte[] _memory = new byte[8];
+            readonly byte[] _memory = new byte[5096];
             internal void Fuck() {
                 for (var i = 0; i < _program.Length; i++) {
                     switch (_program[i]) {
@@ -24,16 +24,20 @@
                             _out += (char)_memory[_ptr];
                             break;
                         case '<':
-                            _ptr--;
+                            if (_ptr == 0)
+                                _ptr = _memory.Length - 1;
+                            else _ptr--;
                             break;
                         case '>':
-                            _ptr++;
+                            if (_ptr == _memory.Length - 1)
+                                _ptr = 0;
+                            else _ptr++;
                             break;
                         case '+':
-                            _memory[_ptr]++;
+                            unchecked { _memory[_ptr]++; }
                             break;
                         case '-':
-                            _memory[_ptr]--;
+                            unchecked { _memory[_ptr]--; }
                             break;
                         case '[':
                             if (_memory[_ptr] == 0) {
