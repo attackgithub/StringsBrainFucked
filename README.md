@@ -9,3 +9,9 @@ Why the fuck not?
 ### Usage
 
 StringsBrainFucked.exe <assembly> [ -o output.exe ]
+
+## Credits
+
+0xd4d - dnlib
+gszauer - BF interpreter
+Keith Randall - text to bf converter
